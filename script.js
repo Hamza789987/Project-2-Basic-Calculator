@@ -33,8 +33,25 @@ for (let button of buttons) {
       state.operator1 = display.innerHTML.slice(0, -1);
       display.innerHTML = "0";
       console.log(state);
+    } else if (button.innerHTML === "-") {
+      console.log("hit minus");
+      state.operation = "-";
+      state.operator1 = display.innerHTML.slice(0, -1);
+      display.innerHTML = "0";
+      console.log(state);
+    } else if (button.innerHTML === "x") {
+      console.log("hit minus");
+      state.operation = "x";
+      state.operator1 = display.innerHTML.slice(0, -1);
+      display.innerHTML = "0";
+      console.log(state);
+    } else if (button.innerHTML === "÷") {
+      console.log("hit minus");
+      state.operation = "÷";
+      state.operator1 = display.innerHTML.slice(0, -1);
+      display.innerHTML = "0";
+      console.log(state);
     }
-
     // handle result operation
     if (button.innerHTML === "=") {
       state.operator2 = display.innerHTML;
@@ -43,6 +60,35 @@ for (let button of buttons) {
       if (state.operation === "+") {
         state.result = parseInt(state.operator1) + parseInt(state.operator2);
         display.innerHTML = state.result;
+
+        state.operator1 = 0;
+        state.operator2 = 0;
+        state.operation = "";
+        state.result = "";
+      } else if (state.operation === "-") {
+        state.result = parseInt(state.operator1) - parseInt(state.operator2);
+        display.innerHTML = state.result;
+
+        state.operator1 = 0;
+        state.operator2 = 0;
+        state.operation = "";
+        state.result = "";
+      } else if (state.operation === "x") {
+        state.result = parseInt(state.operator1) * parseInt(state.operator2);
+        display.innerHTML = state.result;
+
+        state.operator1 = 0;
+        state.operator2 = 0;
+        state.operation = "";
+        state.result = "";
+      } else if (state.operation === "÷") {
+        state.result = parseInt(state.operator1) / parseInt(state.operator2);
+        display.innerHTML = state.result;
+
+        state.operator1 = 0;
+        state.operator2 = 0;
+        state.operation = "";
+        state.result = "";
       }
     }
     // reset
