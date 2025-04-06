@@ -1,0 +1,60 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: rgb(59, 70, 100);
+}
+.title {
+  text-align: center;
+  color: aliceblue;
+}
+.calculator {
+  margin-top: 60px;
+  place-self: center;
+  width: 350px;
+  height: 450px;
+  background-color: rgb(37, 45, 68);
+  border: #2b2b2b 2px solid;
+}
+.displayScreen {
+  background-color: rgb(24, 31, 50);
+  height: 70px;
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  font-size: large;
+  margin: 5px;
+  padding: 25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+.row .reset,
+.equal {
+  width: 110px;
+}
+
+.reset,
+.delete,
+.equal {
+  color: azure;
+  background-color: gray;
+}
+.addition,
+.subtraction,
+.multiplication,
+.division {
+  background-color: orange;
+  color: azure;
+}
