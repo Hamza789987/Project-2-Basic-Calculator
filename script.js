@@ -1,4 +1,6 @@
 const buttons = document.querySelectorAll(".buttons");
+
+// STATE
 const state = {
   operator1: 0,
   operator2: 0,
@@ -25,6 +27,24 @@ for (let button of buttons) {
       display.innerHTML = numToString.slice(0, -1);
     }
 
+    // handle addition operation
+    if (button.innerHTML === "+") {
+      state.operation = "+";
+      state.operator1 = display.innerHTML.slice(0, -1);
+      display.innerHTML = "0";
+      console.log(state);
+    }
+
+    // handle result operation
+    if (button.innerHTML === "=") {
+      state.operator2 = display.innerHTML;
+      console.log(state);
+
+      if (state.operation === "+") {
+        state.result = parseInt(state.operator1) + parseInt(state.operator2);
+        display.innerHTML = state.result;
+      }
+    }
     // reset
     if (button.innerHTML === "RESET") {
       console.log(display);
