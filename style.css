@@ -6,11 +6,12 @@ body {
 }
 .title {
   text-align: center;
+  color: azure;
 }
 .calculator {
   margin-top: 60px;
   place-self: center;
-  width: 350px;
+  width: 300px;
   height: 450px;
   background-color: rgb(37, 45, 68);
   border: #2b2b2b 2px solid;
