@@ -8,32 +8,23 @@ Basic Calculator is a website to create arithmetic operations which is targeted 
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 - **Display Screen**
 
   - Inside the calculator is a box which acts like the screen of an actual calculator where the numbers are inputted
+
     ![screen image](assets/images/screenImage.png)
 
 - **Buttons Keypad**
 
   - At the bottom we have the buttons that is clicked to make the calculation.
-  - I have added an animation in each button to hint the user that a button has been clicked especially when it is an operation that is clicked which is not shown on the screen unlike the numbers that appear when they are clicked.
-
     ![buttons image](assets/images/buttonsImage.png)
 
-  - the buttons are styled due to its functions: - the standard numbers are styled with white background - the arithmetic operations are in one category with an orange background - the equal and the reset buttons are unique with its own function hence they are given their own background as the reset resets the screen and operations and the equal button prints the result of the operation which arent shared with other buttons
+  - I have added an animation in each button to hint the user that a button has been clicked especially when it is an operation that is clicked which is not shown on the screen unlike the numbers that appear when they are clicked.
     ![buttons image](assets/images/clickedButtonImage.png)
 
+  - the buttons are styled due to its functions: - the standard numbers are styled with white background - the arithmetic operations are in one category with an orange background - the equal and the reset buttons are unique with its own function hence they are given their own background as the reset resets the screen and operations and the equal button prints the result of the operation which arent shared with other buttons
+
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 - Overall the calculator performs well and meets its functional requirements. It is responsive, accessible, and compatible with modern browsers. Users are able to complete basic calculations easily.
 
@@ -77,7 +68,8 @@ The live link can be found here - https://hamza789987.github.io/Project-2-Basic-
 
 ## Credits
 
-The main credits that i gave was the suitable background colour which i saw from the internet specifically this picture
+The main credits that i gave was the suitable background colour which i saw from the internet specifically this picture.
+
 ![credit image](https://tse2.mm.bing.net/th?id=OIP.CxEmzstMpHx7j-xesDE_PQHaEo&pid=Api&P=0&h=180)
 
 I have used the same background colours that was used by finding their CSS file in the github link except for the buttons where i used my own and colour coded the buttons for my calculator
