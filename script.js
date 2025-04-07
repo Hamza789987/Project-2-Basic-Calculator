@@ -26,7 +26,8 @@ for (let button of buttons) {
       } else {
         console.log("else");
         state.operator2 += button.innerHTML.toString();
-        display.innerHTML = state.operator2;
+        console.log(Number(state.operator2));
+        display.innerHTML = Number(state.operator2);
 
         console.log(state);
       }

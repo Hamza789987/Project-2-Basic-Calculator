@@ -1,14 +1,3 @@
-LO1: Design an interactive Front-End web application using HTML and CSS and JavaScript based on the principles of user experience design, accessibility and responsivity
-1.1 Design a web application that meets accessibility guidelines, follows the principles of UX design and presents a structured layout and navigation model, and meets its given purpose
-1.2 Design a website that meets accessibility guidelines (e.g. contrast between background and foreground colours to cater for the visually impaired) Optionally, add alt text for non-text elements
-1.3 Design the organisation of information on the page following the principles of user experience design (headers are used to convey structure, information is easy to find due to being presented and categorised in terms of priority)
-1.4 Ensure that foreground information is never distracted by backgrounds
-1.5 Include graphics that are consistent in style and colour
-1.6 Design interactivity for a web application that lets the user initiate and control actions, and gives feedback
-1.7 Write custom JavaScript, HTML and CSS code to create a responsive front-end web application consisting of one or more HTML pages with significant interactive functionality
-1.8 Write JavaScript code to produce relevant responses to user actions
-1.9 Implement an interactive web application that incorporates images or graphics of usable resolution, legible, unobscured text, consistent styling, undistracted foregrounds
-
 LO2: Test a front-end web application through the development, implementation and deployment stages
 Criteria Description
 2.1 Write JavaScript code that passes through a linter (e.g. Jshint) with no significant issues.
