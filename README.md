@@ -20,6 +20,7 @@ Basic Calculator is a website to create arithmetic operations which is targeted 
     ![buttons image](assets/images/buttonsImage.png)
 
   - I have added an animation in each button to hint the user that a button has been clicked especially when it is an operation that is clicked which is not shown on the screen unlike the numbers that appear when they are clicked.
+
     ![buttons image](assets/images/clickedButtonImage.png)
 
   - the buttons are styled due to its functions: - the standard numbers are styled with white background - the arithmetic operations are in one category with an orange background - the equal and the reset buttons are unique with its own function hence they are given their own background as the reset resets the screen and operations and the equal button prints the result of the operation which arent shared with other buttons
