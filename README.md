@@ -52,8 +52,6 @@ Basic Calculator is a website to create arithmetic operations which is targeted 
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-
 A bug which was unfixed was in using negative numbers for the calulcation where the user would click the subtraction operator. This is an issue which cannot be calculated as the code in the subtraction button is used conditionally which sets the second operator for the caclulator causing a clash if it was used for negative numbers.
 Fixing this bug was a huge challenge for me and it required a lot of effort which allowed me to struggle in solving it without modifying the previous code. This was because the other code was dependant on each feature which explains the abundant conditional statements causing a puzzle to solve.
 
