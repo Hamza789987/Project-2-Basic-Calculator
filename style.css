@@ -18,7 +18,7 @@ body {
 }
 .displayScreen {
   color: aliceblue;
-
+  font-size: larger;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -37,7 +37,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color: azure;
+  color: rgb(59, 70, 100);
   font-size: large;
   margin: 5px;
   padding: 25px;
@@ -45,22 +46,40 @@ body {
   height: 50px;
   border-radius: 5px;
   border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
 }
-.row .reset,
-.equal {
+.buttons:active {
+  transform: scale(0.92);
+}
+.row .reset {
   width: 110px;
 }
 
-.reset,
-.delete,
-.equal {
+.reset {
   color: azure;
   background-color: gray;
+}
+.equal {
+  background-color: green;
+  color: azure;
 }
 .addition,
 .subtraction,
 .multiplication,
 .division {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
   background-color: orange;
   color: azure;
 }
