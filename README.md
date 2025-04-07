@@ -4,7 +4,7 @@ In this section, you will include one or two paragraphs providing an overview of
 
 Basic Calculator is a website to create arithmetic operations which is targeted towards day to day users that need to calculate huge numbers which this website provides. This has been created with a size of a real calculator and therefore makes the website responsive for every device.
 
-![calculator image](assets\images\image.png)
+![calculator image](assets/images/wholeImage.png)
 
 ## Features
 
@@ -13,16 +13,17 @@ In this section, you should go over the different parts of your project, and des
 - **Display Screen**
 
   - Inside the calculator is a box which acts like the screen of an actual calculator where the numbers are inputted
-    ![screen image](assets\images\screenImage.png)
+    ![screen image](assets/images/screenImage.png)
 
 - **Buttons Keypad**
 
   - At the bottom we have the buttons that is clicked to make the calculation.
   - I have added an animation in each button to hint the user that a button has been clicked especially when it is an operation that is clicked which is not shown on the screen unlike the numbers that appear when they are clicked.
-    assets\images\clickedButtonImage.png
-    ![buttons image](assets\images\clickedButtonImage.png)
+
+    ![buttons image](assets/images/buttonsImage.png)
+
   - the buttons are styled due to its functions: - the standard numbers are styled with white background - the arithmetic operations are in one category with an orange background - the equal and the reset buttons are unique with its own function hence they are given their own background as the reset resets the screen and operations and the equal button prints the result of the operation which arent shared with other buttons
-    ![buttons image](assets\images\buttonsImage.png)
+    ![buttons image](assets/images/clickedButtonImage.png)
 
 ## Testing
 
@@ -78,6 +79,7 @@ The live link can be found here - https://hamza789987.github.io/Project-2-Basic-
 
 The main credits that i gave was the suitable background colour which i saw from the internet specifically this picture
 ![credit image](https://tse2.mm.bing.net/th?id=OIP.CxEmzstMpHx7j-xesDE_PQHaEo&pid=Api&P=0&h=180)
+
 I have used the same background colours that was used by finding their CSS file in the github link except for the buttons where i used my own and colour coded the buttons for my calculator
 
 I also give credit to stack overflow as i researched in doing the animation of the clicked buttons whilst understanding it and then being able to code it out myself
